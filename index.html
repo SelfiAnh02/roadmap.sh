@@ -1,75 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags -->
+    <meta name="description" content="Project HTML single-page CV" />
+    <meta
+      name="keyword"
+      content="Semantic HTML, SEO Meta Tags, OG Tags, Favicon"
+    />
+    <meta name="author" content="Selfi Amanah" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tugas Jaringan Komputer</title>
+    <!-- Open Graph Meta Tags for better social media sharing -->
+    <meta property="og:title" content="Selfi Amanah - Junior Frontend Developer CV" />
+    <meta property="og:description" content="A single-page CV showcasing Selfi Amanah's skills in frontend development, web design, and software engineering." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://Seanh-Project.com/" />
+    <meta property="og:image" content="https://Seanh-Project.com/img/preview.jpg" />
+    <meta property="og:site_name" content="Selfi Amanah CV" />
+
+    <title>Single-Page CV</title>
+    <link rel="icon" type="img/x-icon" href="img/favicon.ico" />
+
     <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: #f0f0f0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 50px;
+        border: #333 1px solid;
+      }
+      /* p ul{
+        line-height: 1.5;
+        font-size: 13px;
+      }
+      h4 {
+        color: lightgreen;
+        margin-bottom: 10px;
+        line-height: 2;
+      }
+      h3 {
+        color: rgb(27, 198, 255);      } */
+    </style>
   </head>
   <body>
-    <header class="header">
-      <img src="img/logo.png" alt="Logo" />
-      <h1>Welcome to Tugas Jaringan Komputer</h1>
-      <nav class="navbar">
-        <div class="container"></div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Profil</a></li>
-          <li><a href="#">Tugas Teori</a></li>
-          <li><a href="#">Tugas Praktek</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <nav class="Home">
-          <h2>Apa itu Jaringan Komputer?</h2>
-          <p>
-            Jaringan komputer adalah kumpulan perangkat komputer yang saling
-            terhubung dan dapat bertukar data.<br />
-            Jaringan komputer memungkinkan perangkat untuk berbagi sumber daya,
-            seperti file, printer, dan koneksi internet.
-          </p>
-          <img src="img/web1.jpg" alt="Jaringan Komputer" />
-          <h2>Komponen Jaringan Komputer</h2>
-          <li>
-            Jaringan Area Lokal (LAN): Jaringan yang terbatas pada area
-            geografis kecil, seperti rumah atau kantor.
-          </li>
-          <li>
-            Jaringan Area Luas (WAN): Jaringan yang mencakup area geografis yang
-            lebih besar, seperti kota, negara, atau benua.
-          </li>
-          <li>
-            Router: Perangkat yang mengarahkan lalu lintas data antara jaringan.
-          </li>
-          <li>
-            Switch: Perangkat yang menghubungkan perangkat dalam jaringan dan
-            mengirim data ke tujuan yang tepat.
-          </li>
-          <li>
-            Modem: Perangkat yang mengubah sinyal digital menjadi sinyal analog
-            untuk transmisi data melalui jaringan telepon atau kabel.
-          </li>
-          <li>
-            Kabel: Media fisik yang digunakan untuk menghubungkan perangkat
-            dalam jaringan.
-          </li>
-        </nav>
-      </section>
+    <header>
+   <hr style="border: 1px solid #333; margin-bottom: 20px;" />
+   <h1>Selfi Amanah</h1>
+   <h3 style="color :lightgreen">Junior Frontend Developer</h3><br>
+   <address>
+   <p>Jl. Mukharom No.IV A,<br> Kedungmundu, Tembalang, Semarang City,50273 <br> selfianh020304@gmail.com</p>
+  </address>
+  </header> <br>
+  <main>
+    <section class="skills">
+      <h3 style="color :lightgreen">Skills</h3>
+      <p>HTML, CSS, Java Script, Accessibility, <br>Figma to Design, Responsive Web Desaign <br>
+      Technical Writing, Presentation</p>
+    </section><br>
+    
+    <section class="education">
+      <h3 style="color :lightgreen">Education</h3>
+      <h4 style="color : rgb(68, 194, 236)">University of Muhammadiyah Semarang, Indonesia - Informatic</h4>
+      <h5>September 2023 to Mei 2025 </h5>
+      <p>Acquired strong foundational and practical skills in Java programming,<br>
+        object-oriented design, MySQL-based database systems, web development,<br>
+        computer networks, and software engineering through academic projects and coursework.</p>
+    </section><br>
 
-      <section>
-        <nav class="Profil">
-          <h2>Profil</h2>
-          <p>
-            Nama: Selfi Amanah<br />
-            NIM: C2C023511<br />
-            Jurusan: Teknik Informatika<br />
-            Universitas: Universitas Muhammadiyah Semarang<br />
-          </p>
-          <img src="img/profil.png" alt="Profil" />
-        </nav>
-      </section>
-    </main>
+    <section class="experience">
+      <h3 style="color :lightgreen">Experience</h3>
+      <h4 style="color : rgb(68, 194, 236)">PT Solusi Digital Nusantara | Semarang, Indonesia</h4>
+      <h5>Internship - Frontend Developer <br>
+        September 2025 to February</h5>
+        <ul>
+            <li>Designed and implemented interactive web pages using HTML, CSS, and JavaScript.</li>
+            <li>Built reusable UI components and page layouts with a focus on maintainability.</li>
+            <li>Integrated frontend components with backend APIs developed in Java.</li>
+            <li>Improved website performance and responsiveness across desktop and mobile devices.</li>
+            <li>Participated in daily stand-up meetings and sprint planning to align with the product team.</li>
+        </ul><br>
+        <h5>Skills Applied: </h5>
+        <ul>
+          <li>Frontend Development: HTML, CSS, JavaScript</li>
+          <li>UI/UX: Responsive Design, User Interface Optimization</li>
+          <li>Tools: Visual Studio Code, Git, Chrome DevTools</li>
+          <li>Collaboration: Agile Workflow, Cross-functional Teamwork</li>
+          <li>Concepts: Software Engineering Fundamentals, API Integration</li>
+        </ul>
+    </section><br>
+
+    <section class="iternet">
+      <h3 style="color :lightgreen">Across the Internet</h3>
+      <a href="https://github.com/SelfiAnh02" >My Github</a><br>
+      <a href="https://www.linkedin.com/in/selfi-anh234/">LinkedIn</a><br>
+      <a href="https://www.instagram.com/sllfiii_ouu?igsh=MXdsMWFqcGoyZTNodw==">Instagram</a>
+    </section>
+  </main>
   </body>
 </html>
